@@ -1,0 +1,34 @@
+Results Naive Bayes on the data
+
+Default Naive Bayes on count vectorizer hyperpartisan: 
+
+	precision: 0.7040783717388783
+	recall: 0.6920345504467018
+	f-score per class: [0.71956021 0.65057994]
+	f-score macro: 0.6850700750765026
+	accuracy score: 0.6888473268059152
+
+Default Naive Bayes on count vectorizer bias: 
+
+	precision: 0.26677728632715403
+	recall: 0.2828680393585645
+	f-score per class: [0.53627606 0.50622123 0.11983061 0.06244139 0.0621493 ]
+	f-score macro: 0.25738371701493634
+	accuracy score: 0.3522921566301215
+
+
+Default Naive Bayes on tf-idf vectorizer hyperpartisan: 
+
+	precision: 0.7091849637512158
+	recall: 0.7029939424385145
+	f-score per class: [0.72139581 0.67664355]
+	f-score macro: 0.699019680279067
+	accuracy score: 0.7006832155094805
+
+Default Naive Bayes on tf-idf vectorizer bias: 
+
+	precision: 0.26336332571085397
+	recall: 0.3163589417235233
+	f-score per class: [0.646353   0.52858254 0.05912741 0.07230962 0.02418663]
+	f-score macro: 0.2661118400684602
+	accuracy score: 0.44046813173009147
