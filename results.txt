@@ -1,0 +1,89 @@
+Results on the data
+
+Default Naive Bayes on count vectorizer hyperpartisan: 
+
+	precision: 0.7040783717388783
+	recall: 0.6920345504467018
+	f-score per class: [0.71956021 0.65057994]
+	f-score macro: 0.6850700750765026
+	accuracy score: 0.6888473268059152
+
+Default Naive Bayes on count vectorizer bias: 
+
+	precision: 0.26677728632715403
+	recall: 0.2828680393585645
+	f-score per class: [0.53627606 0.50622123 0.11983061 0.06244139 0.0621493 ]
+	f-score macro: 0.25738371701493634
+	accuracy score: 0.3522921566301215
+
+Default Naive Bayes on tf-idf vectorizer hyperpartisan: 
+
+	precision: 0.7091849637512158
+	recall: 0.7029939424385145
+	f-score per class: [0.72139581 0.67664355]
+	f-score macro: 0.699019680279067
+	accuracy score: 0.7006832155094805
+
+Default Naive Bayes on tf-idf vectorizer bias: 
+
+	precision: 0.26336332571085397
+	recall: 0.3163589417235233
+	f-score per class: [0.646353   0.52858254 0.05912741 0.07230962 0.02418663]
+	f-score macro: 0.2661118400684602
+	accuracy score: 0.44046813173009147
+
+Default Naive bayes on count vector using ngrams hyperpartisan: 
+	precision: 0.7090951371376161
+	recall: 0.6935010055692659
+	f-score per class: [0.72427018 0.64583499]
+	f-score macro: 0.6850525878656912
+	accuracy score: 0.6899360052479884
+
+
+Default Naive bayes on tf-idf vectorizer using ngrams hyperpartisan: 
+
+	precision: 0.715093685535639
+	recall: 0.7055734476949496
+	f-score per class: [0.72815937 0.67218301]
+	f-score macro: 0.7001711884955997
+	accuracy score: 0.702783806606045
+
+Default xgb on count vector hyperpartisan:
+
+	precision: 0.705652081421036
+	recall: 0.6939738419534284
+	f-score per class: [0.72077955 0.65371688]
+	f-score macro: 0.6872482123108559
+	accuracy score: 0.6908432372830494
+
+Default NBSVM++ on count vectorizer bias:
+
+	precision: 0.3743414827793977
+	recall: 0.3636508867318554
+	f-score per class: [0.74258 0.53967 0.11522 0.0847  0.06869]
+	f-score macro: 0.3101719961553574
+	accuracy score: 0.4969119217268115
+
+Default NBSVM++ on count vectorizer hyperpartisan: 
+
+	precision: 0.7457267348925276
+	recall: 0.7424822688907118
+	f-score per class: [0.7523  0.72829]
+	f-score macro: 0.7402975244402374
+	accuracy score: 0.7408526585387981
+
+Default NBSVM++ on count vectorizer with ngrams hyperpartisan: 
+
+	precision: 0.757313110024135
+	recall: 0.7566619222881514
+	f-score per class: [0.75953 0.75194]
+	f-score macro: 0.7557350193309516
+	accuracy score: 0.755794072285457
+
+Default NBSVM++ on count-vectorizer with ngrams bias: 
+	
+	precision: 0.3807872651443892
+	recall: 0.36367953947870857
+	f-score per class: [0.72873 0.54112 0.13086 0.10162 0.07671]
+	f-score macro: 0.31580874517042695
+	accuracy score: 0.489451682915425
