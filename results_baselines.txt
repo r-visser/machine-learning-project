@@ -1,4 +1,4 @@
-Results on the data
+Results on the data of baseline classifiers:
 
 Default Naive Bayes on count vectorizer hyperpartisan: 
 
@@ -87,3 +87,35 @@ Default NBSVM++ on count-vectorizer with ngrams bias:
 	f-score per class: [0.72873 0.54112 0.13086 0.10162 0.07671]
 	f-score macro: 0.31580874517042695
 	accuracy score: 0.489451682915425
+
+Default NBSVM++ on tf-idf vector with ngrams hyperpartisan:
+
+	precision: 0.75540645168185
+	recall: 0.7543866361826188
+	f-score per class: [0.75855 0.74797]
+	f-score macro: 0.7532591290864044
+	accuracy score: 0.7533724606226403
+
+Default NBSVM++ on tf-idf vector with ngrams bias:
+
+	precision: 0.75540645168185
+	recall: 0.7543866361826188
+	f-score per class: [0.75855 0.74797]
+	f-score macro: 0.7532591290864044
+	accuracy score: 0.7533724606226403
+
+Default NBSVM++ on count vector with ngrams and removal of stopwords hyperpartisan: 
+
+	precision: 0.7538648345779437
+	recall: 0.7510967407223423
+	f-score per class: [0.75948 0.73885]
+	f-score macro: 0.7491657627317156
+	accuracy score: 0.749590000907232
+
+Default NBSVM++ on count vector with ngrams and removal of stopwords bias:
+
+	precision: 0.3936263604536229
+	recall: 0.3792275990337849
+	f-score per class: [0.76531 0.55848 0.1409  0.09463 0.07922]
+	f-score macro: 0.32770811697781543
+	accuracy score: 0.5119370799690145
