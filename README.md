@@ -1,3 +1,16 @@
+# README
+This repository contain the implementation of the project for the Machine Learning course
+
+## Models and Classifiers
+Numerous models were tested.
+
+- NB
+- NBSVM++
+- Keras GRU (RNNs)
+- BERT/eLMO
+- Universal Sentence Encoder
+
+## Preprocessing
 Preprocessing steps on dataset: 
 
   - Publishers are extracted from the url's such that we can group them (useful for splitting them in training and test). 
